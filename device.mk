@@ -50,3 +50,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+
+# Derpfest build type
+DERPFEST_BUILD_TYPE := Community
