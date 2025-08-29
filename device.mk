@@ -56,3 +56,7 @@ DERPFEST_BUILD_TYPE := Community
 
 # Viper4Android
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
