@@ -52,7 +52,7 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
 
 # Derpfest build type
-DERPFEST_BUILD_TYPE := Community
+DERPFEST_BUILD_TYPE := Offical-beta
 
 # Viper4Android
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
